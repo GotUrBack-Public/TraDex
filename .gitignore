@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+# Local datasets and models
+data/**
+!data/.gitkeep
+models/**
+!models/.gitkeep
+experiments/**
+!experiments/.gitkeep
+# Local databases and caches
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.gguf
+chroma/
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
